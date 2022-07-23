@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+header, footer {
+  background-color: #444444;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+}
+
+main article {
+  /*
+    make the heading <h2> at the top, with no padding of its own
+
+    make the text in the <section> <p> scroll
+
+    make the button's background color black
+    make it a rectangle that takes up 40% of the article
+
+  */
+  width: 400px;
+}
+
+main article div {
+  width: 40%;
+}
+
+body * {
+
+}
+
+section {
+
+}
+
+section img {
+
+}
+
+article div {
+  background-color: black;
+}
+
+main > article {
+  float: left;
+}
+footer {
+  /*
+    background color is grey
+    spans the width of the browser window
+  */
+}
