@@ -121,6 +121,14 @@ article div {
   height: 50px;
 }
 
+article div:hover {
+  /* changes the button's color upon hover */
+  /* https://stackoverflow.com/a/53402070
+    for colors
+  */
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
 article > div > a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
